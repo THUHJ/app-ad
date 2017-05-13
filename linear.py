@@ -12,12 +12,13 @@ def ouput(y,instanceID):
 
 max_r = None
 test = pd.read_csv("../data/test.csv",nrows=max_r)
-print (test.shape)
+print("train",test.shape)
 train  = pd.read_csv("../data/train.csv",nrows=max_r)
+print("train",train.shape)
 
 
-user_installedapps = pd.read_csv("../data/user_installedapps.csv",nrows=max_r)
-user_app_actions = pd.read_csv("../data/user_app_actions.csv",nrows=max_r)
+#user_installedapps = pd.read_csv("../data/user_installedapps.csv",nrows=max_r)
+#user_app_actions = pd.read_csv("../data/user_app_actions.csv",nrows=max_r)
 
 user = pd.read_csv("../data/user.csv",nrows=max_r)
 ad = pd.read_csv("../data/ad.csv",nrows=max_r)
