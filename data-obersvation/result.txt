@@ -21,3 +21,27 @@ marriageStatus      0.017218
 haveBaby            0.008117
 hometown            0.077014
 residence           0.009698
+
+positionType 6
+connectionType 5
+appPlatform 2
+conversionTime 0
+haveBaby 7
+appID 50
+gender 3
+age 81
+appCategory 14
+clickTime 20160
+education 8
+userID 2595627
+hometown 365
+camgaignID 677
+adID 3447
+creativeID 6315
+advertiserID 89
+marriageStatus 4
+label 2
+telecomsOperator 4
+sitesetID 3
+positionID 7219
+residence 399

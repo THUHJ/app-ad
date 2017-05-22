@@ -14,11 +14,14 @@ def get_pos_neg():
 
 if __name__ == "__main__":
 	file_dir = "../../data/"
-	max_r = None
+	max_r = 10
 	train_pos = pd.read_csv(file_dir+"train_pos.csv",nrows=max_r) #with shape (93262, 23)
+	print (train_pos)
+	a=a
 	train_neg = pd.read_csv(file_dir+"train_neg.csv",nrows=max_r)
 	
 	m1 = train_pos.mean()
+	
 	m2 = train_neg.mean()
 	print (m1)
 	print (m2)
